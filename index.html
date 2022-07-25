@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="'Calculate Me' is a simple calculator made with JavaScript.">
+    <title>Calculate Me - A Simple Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        Calculate Me - A Simple Calculator
+    </header>
+    <div class="calculator">
+        <p>CASIO</p>
+        <div class="inputbox">
+            <div class="numpad">
+                <input type="text" name="textbox" id="textbox" value="" readonly>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('C')">C</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('^')">^</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('r')">&radic;</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('+')">+</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('7')">7</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('8')">8</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('9')">9</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('/')">/</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('4')">4</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('5')">5</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('6')">6</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('x')">x</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('1')">1</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('2')">2</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('3')">3</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('-')">-</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('AC')">AC</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('0')">0</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('.')">.</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" onclick="insert_Text('=')">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>Made with ❤ by Sameer</footer>
+</body>
+<script src="js/script.js"></script>
+</html>
